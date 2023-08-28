@@ -66,7 +66,7 @@ def is_chat_model():
 
 def should_use_data():
     if AZURE_SEARCH_SERVICE and AZURE_SEARCH_INDEX and AZURE_SEARCH_KEY:
-        return True
+        return False # Never use data 
     return False
 
 
