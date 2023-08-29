@@ -46,6 +46,7 @@ export type ChatResponse = {
 
 export type ConversationRequest = {
     messages: ChatMessage[];
+    useData?: boolean; // Add useData variable  
 };
 
 export type UserInfo = {
